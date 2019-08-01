@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Legrand | Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+  </head>
+
+  <body>
+    <div uk-sticky>
+      <nav class="uk-navbar-container nav" uk-navbar>
+        <div class="uk-navbar-left uk-margin-left">
+          <span>Legrand</span>
+        </div>
+        <div class="uk-navbar-right uk-margin-right">
+          <ul class="uk-navbar-nav" id="nav-ul">
+            <li><a href="#who" uk-scroll>who am i</a></li>
+            <li><a href="#portfolio" uk-scroll>portfolio</a></li>
+            <li><a href="#contact" uk-scroll>what?</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div
+      class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light"
+      data-src="img/showcase.jpg"
+      uk-img
+    >
+      <h1>My Personal Portfolio</h1>
+    </div>
+
+    <section id="who" class="uk-background-muted ">
+      <div class="uk-container flex-container">
+        <div class="m-container">
+          <img
+            class="uk-border-circle"
+            src="img/profil.jpg"
+            width="200"
+            height="200"
+            alt="Border circle"
+          />
+        </div>
+
+        <div class="m-container2">
+          <p>
+            I'm Mahamat Legrand, a junior Front-End developer with no experience
+            actually lookoing for an internship inorder to gain experience when
+            working in a real world project
+          </p>
+          <p>
+            I'm the owner of <span>multicode</span> youtube channel, in which i
+            intend to share what i know with the rest of the world
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <div class="uk-container">
+        <div class="uk-h3">Portfolio</div>
+        <div
+          class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin"
+          uk-grid
+        >
+          <div class="uk-card-media-left uk-cover-container">
+            <img src="img/showcase.jpg" alt="" uk-cover />
+            <canvas width="600" height="400"></canvas>
+          </div>
+          <div>
+            <div class="uk-card-body">
+              <h3 class="uk-card-title">Media Left</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="uk-container"></div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+a {
+  color: #fff !important;
+}
+.nav {
+  background-color: #333 !important;
+  color: #fff;
+}
+
+#who {
+  padding: 50px 30px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.m-container {
+  margin-right: 20px;
+}
+
+.m-container2 {
+  margin-top: 20px;
+}
+
+#portfolio {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
